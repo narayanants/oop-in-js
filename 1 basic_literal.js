@@ -2,18 +2,18 @@
 
 const s1 = 'Hello';
 console.log(s1.toUpperCase());
-console.log(typeof(s1));
+console.log(typeof (s1));
 
 
 const s2 = new String('Hello');
-console.log(typeof(s2));
+console.log(typeof (s2));
 
 
 let book1 = {
     title: 'Book one',
     author: 'John Doe',
-    year:'2013',
-    getSummary : function (){
+    year: '2013',
+    getSummary: function () {
         return `${this.title} was written by ${this.author} in ${this.year}`;
     }
 };
