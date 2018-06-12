@@ -25,7 +25,6 @@ class Book {
     static topBookStore() {
         return 'Barnes and Noble';
     }
-
 }
 
 //Instantiate Object
